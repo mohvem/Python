@@ -149,3 +149,5 @@ perf3_better.to_excel(writer,sheet_name = "3.Better")
 perf3_worse.to_excel(writer,sheet_name = "3.Worse")
 
 writer.save()
+
+stacked.to_excel('All Data Long.xlsx')
